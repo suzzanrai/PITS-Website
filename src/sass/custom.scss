@@ -1,0 +1,11 @@
+// Import Bootstrap's functions and variables
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+// Use the `$teal-400` color
+.my-custom-bg {
+  background-color: $teal-400; // Use teal color
+}
+
+// Import the rest of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
