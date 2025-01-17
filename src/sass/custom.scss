@@ -1,11 +1,32 @@
 // Import Bootstrap's functions and variables
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
-// Use the `$teal-400` color
-.my-custom-bg {
-  background-color: $teal-400; // Use teal color
+.background1{
+  background-color: #EDFCE5;
+}
+.btn.background2 {
+  background-color: #EDFCE5 !important; // Force background color
+  color: #198754 !important; // Change text color for better contrast
+  border-color: #EDFCE5 !important; // Match border color to background
+}
+.bg{
+  background-color: #848484;
 }
 
+.container-custom {
+  width: 96%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.new{
+
+}
 // Import the rest of Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";

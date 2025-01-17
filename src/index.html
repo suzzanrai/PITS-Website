@@ -9,26 +9,35 @@
   <title>Document</title>
   <link rel="stylesheet" href="./sass/custom.css">
 </head>
+<style>
+  .test {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+  }
+</style>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar bg-white ">
-    <div class="container d-flex ">
+    <div class="container-custom d-flex ">
       <div class="navbar-brand start-0 m-0 p-0">
         <img src="../public/logo.png" alt="Logo" width="230" height="60" class="d-inline-block align-text-top">
       </div>
       <div class="collaps nvbar-collaps justify-content-center">
         <ul class="navbar-nav flex-colum ms-auto m-0 p-0">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About Us </a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Our Work</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact Us </a></li>
+          <li class="nav-item fs-5 fw-bold " ><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item fs-5 fw-bold"><a class="nav-link" href="#">About Us </a></li>
+          <li class="nav-item fs-5 fw-bold"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item fs-5 fw-bold"><a class="nav-link" href="#">Our Work</a></li>
+          <li class="nav-item fs-5 fw-bold"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item fs-5 fw-bold"><a class="nav-link" href="#">Contact Us </a></li>
         </ul>
       </div>
       <div class="d-flex align-items-center">
-        <a href="tel:+9779876543210" class="nav-link me-3 text-success">+9779876543210</a>
-        <button class="btn btn-success">Quick Enquiry</button>
+        <a href="tel:+9779876543210" class="nav-link me-3 text-success fs-5 fw-bold">+9779876543210</a>
+        <button type="button" class="btn btn-outline-success fs-5 fw-bold test         " style="border-radius: 20px;">Quick Enquiry</button>
       </div>
       <!-- <div class="col text-end">
     <button type="button" class="btn btn-success position-relative ms-auto">
@@ -38,18 +47,49 @@
     </div>
   </nav>
 
-  <div class="container mt-4">
-    <div class="p-5 my-custom-bg text-white" style=" border-radius: 20px; height: 400px;">
-
-      <div class="row">
+  <div class="container-custom mt-4">
+    <br>
+    <div class="background1 p-5 " style=" border-radius: 20px; height: 500px;">
+      <div class="row w-100">
         <div class="col-md-6">
-          <h1 class="text-danger custom-size "><br><br>Technology Simplified and Advance Toegther</h1>
-          <p class="text-white custom-size-1">Technology is not limited to people having technical knowledge but it is
+          <h1 class="text-success fs-3 fw-bold "><br>Technology Simplified and Advance Toegther</h1>
+          <p class="text-black custom-size-1 fs-5 fw-bold"><br>Technology is not limited to people having technical knowledge but it
+            is
             for all who have just idea of operating it. All our products are user friendly and easy to use. Familiar
             interface of web technol-world where they enjoy their work with less efforts.</p>
+          <br>
+          <button type="button" class=" btn btn-outline-success fs-5 fw-bold" style="border-radius: 20px;">Let's Get Start</button>
+        </div>
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+          <img src="../public/home.png" alt="Logo" w-100 h-100 class="m-0 p-1">
         </div>
       </div>
     </div>
+  </div>
+
+  <br><br>
+  <div class="w-100 bg">
+    <div class="container-custom" style="border-radius:0px; height: 100px;">
+      <div class="h-100 w-100 d-flex justify-content-around align-items-center">
+        <div class="d-flex flex-column align-items-center justify-content-center fw-bold">
+          <p class="fs-2 mb-0 ">15+</p>
+          <p >Service Center</p>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-center fw-bold">
+          <p class="fs-2 mb-0">750+</p> 
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-center fw-bold">
+          <p class="fs-2 mb-0">20+</p>
+          <p>Coperate Partnership</p>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-center fw-bold">
+          <p class="fs-2 mb-0">80+</p>
+          <p>Team Member</p>
+        </div>
+      </div>
+    </div>
+
   </div>
   <style>
 
